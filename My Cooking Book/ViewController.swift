@@ -7,11 +7,27 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
 
+    var recipes : [Recipe] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        var recipe = Recipe(name: "Tortilla de patatas")
+        recipes.append(recipe)
+        
+        recipe = Recipe(name: "Pizza marinera")
+        recipes.append(recipe)
+        
+        recipe = Recipe(name: "Cheeseburguer")
+        recipes.append(recipe)
+        
+        recipe = Recipe(name: "Cesar's Salad")
+        
+        
+        
     }
 
 

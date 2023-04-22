@@ -58,6 +58,15 @@ class ViewController: UITableViewController {
         cell.imageRecipe.clipsToBounds = true
         
         
+        if recipe.isFavourite {
+            
+            cell.accessoryType = .checkmark
+        } else {
+            cell.accessoryType = .none
+        }
+        
+        
+        
         cell.labelName.text = recipe.name
         cell.imageRecipe.image = recipe.image
         cell.labelTime.text = "\(recipe.time!) min"
@@ -68,6 +77,66 @@ class ViewController: UITableViewController {
     /*override func tableview (_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
     }*/
+    
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        
+        if editingStyle == .delete {
+            
+            self.recipes.remove(at: indexPath.row)
+        }
+        
+        //self.tableView.reloadData()
+        
+        self.tableView.deleteRows(at: [indexPath], with: .fade)
+    }
 
+    //MARK: - IUTableViewDelegate
+   /* override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("He seleccionado la fila \(indexPath.row)")
+        
+        let recipe = self.recipes[indexPath.row]
+        
+        let alertController = UIAlertController(title: recipe.name, message: "Set as favourite!", preferredStyle: .actionSheet)
+        
+        let buttonCancel = UIAlertAction(title: "Cancel", style: .cancel)
+        
+        alertController.addAction(buttonCancel)
+        
+        var favouriteActionTitle = "Favourite"
+        var favouriteActionStyle = UIAlertAction.Style.default
+        if recipe.isFavourite {
+            favouriteActionTitle = "No Favourite"
+            favouriteActionStyle = UIAlertAction.Style.destructive
+            
+        }
+        let favouriteAction = UIAlertAction(title: favouriteActionTitle, style: favouriteActionStyle) {
+            (action) in
+                        
+            recipe.isFavourite = !recipe.isFavourite
+            self.tableView.reloadData()
+        }
+        
+        alertController.addAction(favouriteAction)
+        
+        self.present(alertController, animated: true)
+    }*/
+    
+   
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showRecipe" {
+            
+            if let indexPath = self.tableView.indexPathForSelectedRow {
+                
+                let selectedRecipe = self.recipes[indexPath.row]
+                let destinationViewController = segue.destination as! DetailViewController
+                
+                destinationViewController.recipe = selectedRecipe
+            }
+            
+            
+        }
+    }
+    
+    
 }
 

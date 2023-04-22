@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F431C7D229F1B62600577587 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F431C7D129F1B62600577587 /* RecipeCell.swift */; };
+		F438DD7F29F437F30047B867 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F438DD7E29F437F30047B867 /* DetailViewController.swift */; };
 		F470558629EA9DD80088FB12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470558529EA9DD80088FB12 /* AppDelegate.swift */; };
 		F470558829EA9DD80088FB12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470558729EA9DD80088FB12 /* SceneDelegate.swift */; };
 		F470558A29EA9DD80088FB12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470558929EA9DD80088FB12 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		F431C7D129F1B62600577587 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		F438DD7E29F437F30047B867 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F470558229EA9DD80088FB12 /* My Cooking Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Cooking Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F470558529EA9DD80088FB12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F470558729EA9DD80088FB12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				F470558529EA9DD80088FB12 /* AppDelegate.swift */,
 				F470558729EA9DD80088FB12 /* SceneDelegate.swift */,
 				F470558929EA9DD80088FB12 /* ViewController.swift */,
+				F438DD7E29F437F30047B867 /* DetailViewController.swift */,
 				F431C7D129F1B62600577587 /* RecipeCell.swift */,
 				F470559929EAAB490088FB12 /* Recipe.swift */,
 				F470558B29EA9DD80088FB12 /* Main.storyboard */,
@@ -147,6 +150,7 @@
 				F431C7D229F1B62600577587 /* RecipeCell.swift in Sources */,
 				F470558A29EA9DD80088FB12 /* ViewController.swift in Sources */,
 				F470558629EA9DD80088FB12 /* AppDelegate.swift in Sources */,
+				F438DD7F29F437F30047B867 /* DetailViewController.swift in Sources */,
 				F470558829EA9DD80088FB12 /* SceneDelegate.swift in Sources */,
 				F470559A29EAAB490088FB12 /* Recipe.swift in Sources */,
 			);

@@ -20,11 +20,10 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = recipe.name
+        self.title = recipe.name + " \(recipe.time!) min"
         // Do any additional setup after loading the view.
         recipeImage.image = recipe.image
-        //labelName
-        //labelTime.text = "\(recipe.time) min"
+       
     }
     
 

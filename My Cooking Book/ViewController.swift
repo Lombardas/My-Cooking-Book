@@ -78,6 +78,7 @@ class ViewController: UITableViewController {
         
     }*/
     
+    /*
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         
         if editingStyle == .delete {
@@ -89,7 +90,7 @@ class ViewController: UITableViewController {
         
         self.tableView.deleteRows(at: [indexPath], with: .fade)
     }
-
+*/
     //MARK: - IUTableViewDelegate
    /* override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("He seleccionado la fila \(indexPath.row)")

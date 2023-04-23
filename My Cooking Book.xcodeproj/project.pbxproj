@@ -17,6 +17,7 @@
 		F470559229EA9DDA0088FB12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F470559029EA9DDA0088FB12 /* LaunchScreen.storyboard */; };
 		F470559A29EAAB490088FB12 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470559929EAAB490088FB12 /* Recipe.swift */; };
 		F49F548529F53396002385D4 /* RecipeDetailViewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49F548429F53396002385D4 /* RecipeDetailViewCellTableViewCell.swift */; };
+		F49F548729F55A3A002385D4 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49F548629F55A3A002385D4 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F470559329EA9DDA0088FB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F470559929EAAB490088FB12 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		F49F548429F53396002385D4 /* RecipeDetailViewCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewCellTableViewCell.swift; sourceTree = "<group>"; };
+		F49F548629F55A3A002385D4 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				F431C7D129F1B62600577587 /* RecipeCell.swift */,
 				F49F548429F53396002385D4 /* RecipeDetailViewCellTableViewCell.swift */,
 				F470559929EAAB490088FB12 /* Recipe.swift */,
+				F49F548629F55A3A002385D4 /* AboutViewController.swift */,
 				F470558B29EA9DD80088FB12 /* Main.storyboard */,
 				F470558E29EA9DDA0088FB12 /* Assets.xcassets */,
 				F470559029EA9DDA0088FB12 /* LaunchScreen.storyboard */,
@@ -156,6 +159,7 @@
 				F438DD7F29F437F30047B867 /* DetailViewController.swift in Sources */,
 				F49F548529F53396002385D4 /* RecipeDetailViewCellTableViewCell.swift in Sources */,
 				F470558829EA9DD80088FB12 /* SceneDelegate.swift in Sources */,
+				F49F548729F55A3A002385D4 /* AboutViewController.swift in Sources */,
 				F470559A29EAAB490088FB12 /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,8 +315,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,8 +344,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

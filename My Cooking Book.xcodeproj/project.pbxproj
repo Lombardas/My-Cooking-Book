@@ -16,6 +16,7 @@
 		F470558F29EA9DDA0088FB12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F470558E29EA9DDA0088FB12 /* Assets.xcassets */; };
 		F470559229EA9DDA0088FB12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F470559029EA9DDA0088FB12 /* LaunchScreen.storyboard */; };
 		F470559A29EAAB490088FB12 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470559929EAAB490088FB12 /* Recipe.swift */; };
+		F49F548529F53396002385D4 /* RecipeDetailViewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49F548429F53396002385D4 /* RecipeDetailViewCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F470559129EA9DDA0088FB12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F470559329EA9DDA0088FB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F470559929EAAB490088FB12 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		F49F548429F53396002385D4 /* RecipeDetailViewCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				F470558929EA9DD80088FB12 /* ViewController.swift */,
 				F438DD7E29F437F30047B867 /* DetailViewController.swift */,
 				F431C7D129F1B62600577587 /* RecipeCell.swift */,
+				F49F548429F53396002385D4 /* RecipeDetailViewCellTableViewCell.swift */,
 				F470559929EAAB490088FB12 /* Recipe.swift */,
 				F470558B29EA9DD80088FB12 /* Main.storyboard */,
 				F470558E29EA9DDA0088FB12 /* Assets.xcassets */,
@@ -151,6 +154,7 @@
 				F470558A29EA9DD80088FB12 /* ViewController.swift in Sources */,
 				F470558629EA9DD80088FB12 /* AppDelegate.swift in Sources */,
 				F438DD7F29F437F30047B867 /* DetailViewController.swift in Sources */,
+				F49F548529F53396002385D4 /* RecipeDetailViewCellTableViewCell.swift in Sources */,
 				F470558829EA9DD80088FB12 /* SceneDelegate.swift in Sources */,
 				F470559A29EAAB490088FB12 /* Recipe.swift in Sources */,
 			);
